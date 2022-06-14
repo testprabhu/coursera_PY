@@ -1,3 +1,2 @@
-I am editing the README file. Adding some more details about the project description.
-# coursera_PY
-Coursera GIt Course
+List of programs which I solved in Coursera Crash Course on Python.
+Also few more interesting Python programs.
