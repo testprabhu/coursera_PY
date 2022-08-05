@@ -36,7 +36,7 @@ print(message)
 
 mail_server = smtplib.SMTP('smtp-mail.outlook.com', 587)
 mail_server.set_debuglevel(1)
-mail_server.starttls() #
+mail_server.starttls() #require for secure connection, without this it won't work
 mail_pass = getpass.getpass('Password? ')
 print(mail_pass)
 mail_server.login(sender, mail_pass)
